@@ -120,3 +120,34 @@ nav > a:hover {
 .dot-active {
   opacity: 1;
 }
+
+.clients {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 16px; */
+}
+
+.clients :nth-child(1) {
+  margin-bottom: 8px;
+}
+
+.clients :nth-child(2) {
+  margin-bottom: 16px;
+}
+
+.clients h2 {
+  border-bottom: 16px;
+  color: #4d4d4d;
+}
+
+.clients p {
+  border-bottom: 16px;
+  color: #717171;
+}
+
+.clients-image {
+  display: flex;
+  gap: 140px;
+}
