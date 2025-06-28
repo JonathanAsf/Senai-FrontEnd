@@ -53,7 +53,11 @@ nav > a {
   color: #4caf4f;
 }
 
-.auth-buttons > button:last-child {
+.auth-buttons > button:last-child /*nth-child(2)*/ {
   background-color: #4caf4f;
   color: #f5f7fa;
+}
+
+.auth-buttons a:hover {
+  color: #4caf4f;
 }
