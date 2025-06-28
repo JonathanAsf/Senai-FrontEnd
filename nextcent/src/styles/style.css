@@ -36,28 +36,46 @@ nav > a {
 
 .auth-buttons {
   display: flex;
-  /* border: 1px solid black; */
   gap: 14px;
 }
 
-.auth-buttons > button {
+.btn {
   font-size: 14px;
   font-weight: 500;
   width: fit-content;
   padding: 0px 20px; /*Height Width*/
   height: 40px;
   border-radius: 6px;
-}
-
-.auth-buttons > button:first-child {
   color: #4caf4f;
 }
 
-.auth-buttons > button:last-child /*nth-child(2)*/ {
+.primary /*nth-child(2)*/ {
   background-color: #4caf4f;
   color: #f5f7fa;
 }
 
 .auth-buttons a:hover {
   color: #4caf4f;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  gap: 105px;
+}
+
+.hero > h1 {
+  color: #4d4d4d;
+}
+
+.hero-content > h1 > span {
+  color: #4caf4f;
+}
+
+.hero-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
