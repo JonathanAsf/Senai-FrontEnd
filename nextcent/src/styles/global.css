@@ -11,10 +11,6 @@ button {
   margin-top: 16px;
 }
 
-p {
-  color: vra(--color-neutral-grey);
-}
-
 :root {
   /* Cores */
   --color-neutral-black: #263238;
@@ -82,6 +78,10 @@ p {
   font-weight: 500 !important;
 }
 
+p {
+  color: var(--color-neutral-grey);
+}
+
 .btn-primary {
   padding: 14px 32px;
   background-color: var(--color-primary);
@@ -89,4 +89,10 @@ p {
   color: var(--color-neutral-white);
   align-self: flex-start;
   margin-top: 16px;
+}
+
+h2 {
+  color: var(--color-neutral-d_grey);
+  font-size: var(--font-headline-2-size);
+  font-weight: var(--font-headline-2-weight);
 }

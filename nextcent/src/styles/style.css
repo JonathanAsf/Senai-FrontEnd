@@ -78,3 +78,25 @@ main {
 .content-hero > h1 > span {
   color: var(--color-primary);
 }
+
+.our-clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 16px;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.content-our-clients {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container-logo-clients {
+  display: flex;
+  padding: 25px 0;
+  gap: 146px;
+  margin: 0 140px;
+}
