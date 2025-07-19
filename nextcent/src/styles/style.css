@@ -1,9 +1,56 @@
 @import url("./global.css"); /**/
 
-.btn {
-  background-color: var(--color);
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 22px 0px;
+  background-color: var(--color-neutral-silver);
 }
 
-p {
-  color: var(--color);
+.logo-nextcent-header img {
+  width: 154.49px;
+  height: 24px;
+}
+
+.nav-header ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.nav-header ul > li > a {
+  color: var(--color-neutral-grey2);
+  font-weight: var(--font-body-2-regular-weight);
+  transition: 0.5s;
+}
+
+.nav-header ul > li > a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.container-btn-header {
+  display: flex;
+}
+
+.container-btn-header > button {
+  gap: 14px;
+  padding: 10px 20px; /*Cima,Baixo/Direita,Esquerda*/
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.container-btn-header .btn-login {
+  background-color: var(--color-neutral-silver);
+}
+.container-btn-header .btn-login > a {
+  color: var(--color-primary);
+}
+
+.container-btn-header .btn-signup {
+  background-color: var(--color-primary);
+}
+.container-btn-header .btn-signup > a {
+  color: var(--color-neutral-white);
 }
