@@ -7,6 +7,14 @@
   font-family: var(--font-family);
 }
 
+button {
+  margin-top: 16px;
+}
+
+p {
+  color: vra(--color-neutral-grey);
+}
+
 :root {
   /* Cores */
   --color-neutral-black: #263238;
@@ -41,35 +49,44 @@
   /* Configuração de fontess */
   --font-family: "Inter";
 
-  --font-headline-1-size: "64px";
+  --font-headline-1-size: 64px;
   --font-headline-1-weight: 600;
 
-  --font-headline-2-size: "36px";
+  --font-headline-2-size: 60px;
   --font-headline-2-weight: 600;
 
-  --font-headline-3-size: "28px";
+  --font-headline-3-size: 28px;
   --font-headline-3-weight: 700;
 
-  --font-headline-4-size: "20px";
+  --font-headline-4-size: 20px;
   --font-headline-4-weight: 600;
 
-  --font-body-1-size: "18px";
+  --font-body-1-size: 18px;
   --font-body-1-regular-weight: 400;
   --font-body-1-medium-weight: 500;
 
-  --font-body-2-size: "16px";
+  --font-body-2-size: 16px;
   --font-body-2-regular-weight: 400;
   --font-body-2-medium-weight: 500;
 
-  --font-body-3-regular-size: "14px";
+  --font-body-3-regular-size: 14px;
   --font-body-3-regular-weight: 400;
   --font-body-3-medium-weight: 500;
 
-  --font-body-4-size: "12px";
+  --font-body-4-size: 12px;
   --font-body-4-regular-weight: 400;
   --font-body-4-medium-weight: 500;
 }
 
 .active-menu {
   font-weight: 500 !important;
+}
+
+.btn-primary {
+  padding: 14px 32px;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  color: var(--color-neutral-white);
+  align-self: flex-start;
+  margin-top: 16px;
 }
