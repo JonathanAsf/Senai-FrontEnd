@@ -100,3 +100,37 @@ main {
   gap: 146px;
   margin: 0 140px;
 }
+
+.manage-system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.content-manage-system {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content-manage-system h2 {
+  width: 542px;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 127.5px;
+}
+
+.content-cards-article {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 299px;
+  padding: 24px 16px;
+  box-shadow: 0 2px 4px rgba(171, 190, 209, 0.2);
+}
