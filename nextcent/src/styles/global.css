@@ -60,4 +60,34 @@ h2{
     --color-action-success: #2E7D31;
 
     --font: 'Inter';
+
+     --font-family: "Inter";
+  --font-headline-1-size: 64px;
+  --font-headline-1-weight: 600;
+
+  --font-headline-2-size: 36px;
+  --font-headline-2-weight: 600;
+
+  --font-headline-3-size: 28px;
+  --font-headline-3-weight: 700;
+
+  --font-headline-4-size: 20px;
+  --font-headline-4-weight: 600;
+
+  --font-body-1-size: 18px;
+  --font-body-1-weight-regular: 400;
+  --font-body-1-weight-medium: 500;
+
+  --font-body-2-size: 16px;
+  --font-body-2-weight-regular: 400;
+  --font-body-2-weight-medium: 500;
+
+  --font-body-3-size: 14px;
+  --font-body-3-weight-regular: 400;
+  --font-body-3-weight-medium: 500;
+
+  --font-body-4-size: 12px;
+  --font-body-4-weight-regular: 400;
+  --font-body-4-weight-medium: 500;
+}
 }
