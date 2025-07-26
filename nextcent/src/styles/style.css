@@ -201,3 +201,26 @@ h1 {
   display: flex;
   gap: 16.48px;
 }
+
+.how-design-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0;
+  gap: 49.87px;
+}
+
+.how-design-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.how-design-container h2,
+.how-design-container p {
+  width: 601px;
+}
+
+.how-design-container p {
+  font-size: var(--font-body-3-size);
+}
