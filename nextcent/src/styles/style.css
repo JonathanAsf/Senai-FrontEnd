@@ -149,6 +149,7 @@ h1 {
   justify-content: center;
   gap: 49.47px;
   margin-top: 42px;
+  padding: 52pxd;
 }
 
 .pixelgrade-content {
@@ -164,4 +165,39 @@ h1 {
 
 .pixelgrade-content p {
   font-size: 15px;
+  line-height: 20px;
+}
+
+.helping-local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 204px;
+  padding: 64px;
+  background-color: var(--color-neutral-silver);
+  margin-top: 48px;
+}
+
+.helping-local-content {
+  width: 408px;
+  gap: 8px;
+}
+
+.helping-local-content h2 {
+  width: 390px;
+}
+
+.helping-local-content span {
+  color: var(--color-primary);
+}
+
+.helping-local-statistic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.helping-local-items {
+  display: flex;
+  gap: 16.48px;
 }
