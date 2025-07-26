@@ -152,12 +152,16 @@ h1 {
 }
 
 .pixelgrade-content {
-  width: 661px;
   display: flex;
   flex-direction: column;
+  width: 601px;
   gap: 16px;
 }
 
 .pixelgrade-content h2 {
   width: 564px;
+}
+
+.pixelgrade-content p {
+  font-size: 15px;
 }
