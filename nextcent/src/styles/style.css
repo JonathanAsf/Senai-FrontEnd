@@ -65,7 +65,7 @@ main {
 h1 {
   font-size: 64px;
   color: var(--color-neutral-d_grey);
-  font-weight: 600;
+  font-weight: var(--font-headline-1-weight);
 }
 
 .content-lessons h1 span {
@@ -279,11 +279,81 @@ h1 {
   width: 48px;
 }
 
-.customer-navigation a {
+.caring-marketing {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin-top: 48px;
+  text-align: center;
   gap: 8px;
+}
+
+.caring-marketing p {
+  width: 628px;
+  margin: 0 auto;
+}
+
+.caring-marketing h2 {
+  font-weight: var(--font-headline-2-weight);
+}
+.caring-marketing-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  gap: 24px;
+}
+
+.caring-marketing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 368px;
+  position: relative;
+}
+
+.caring-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--color-neutral-silver);
+  box-shadow: 0, 8px, 16px, rgba(171, 190, 209, 1);
+  gap: 16px;
+  width: 317px;
+  position: absolute;
+  top: 190px;
+}
+
+.caring-card-content h3 {
+  font-size: var(--font-headline-4-size);
+  color: var(--color-neutral-grey);
+  width: 285px;
+  font-weight: var(--font-body-4-weight-medium);
+  width: 250px;
+}
+
+.pellentesque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px;
+  gap: 32px;
+  padding: 32px 0;
+  background-color: var(--color-neutral-silver);
+}
+
+.pellentesque h2 {
+  font-size: var(--font-headline-1-size);
+  font-weight: var(--font-headline-2-weight);
+  width: 772px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pellentesque a {
+  display: flex;
+  align-self: center;
   text-decoration: none;
-  color: var(--color-primary);
-  font-weight: var(--font-weight-);
+  gap: 8px;
 }
