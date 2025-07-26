@@ -1,138 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta name="Author" content="Matheus Maia Alvarez" />
+    <meta
+      name="Description"
+      content="Esse é um site que desenvolvi a partir de um template no Figma, para testar meus conhecimentos em HTML e CSS"
+    />
+    <meta name="Keywords" content="HTML, CSS, web design" />
+    <meta property="og:title" content="Nexcent" />
+    <meta
+      property="og:description"
+      content="Olha o projeto que desenvolvi usando HTML e CSS"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>Nexcent</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
+
   <body>
+
+
     <header>
-      <div class="logo-nextcent-header">
+      <div class="logo">
         <img
-          src="./src/image/home/nextcent-logo.svg"
-          alt="Imagem de logotipo nextcent"
-          draggable="false"
+          src="./src/assets/images/Logo.svg"
+          alt="Logo Nexcent"
+          title="Logo Nexcent"
         />
       </div>
+
       <nav class="nav-header">
         <ul>
-          <li><a href="" class="active-menu">Home</a></li>
-          <li><a href="" class="active-menu">Service</a></li>
-          <li><a href="" class="active-menu">Feature</a></li>
-          <li><a href="" class="active-menu">Product</a></li>
-          <li><a href="" class="active-menu">Testimonial</a></li>
-          <li><a href="" class="active-menu">FAQ</a></li>
+          <a href="#">
+            <li class="active">Homes</li>
+          </a>
+          <a href="#">
+            <li>Service</li>
+          </a>
+          <a href="#">
+            <li>Feature</li>
+          </a>
+          <a href="#">
+            <li>Product</li>
+          </a>
+          <a href="#">
+            <li>Testimonial</li>
+          </a>
+          <a href="#">
+            <li>FAQ</li>
+          </a>
         </ul>
       </nav>
-      <div class="container-btn-header">
-        <button class="btn-login"><a href="">Login</a></button>
-        <button class="btn-signup"><a href="">Sign Up</a></button>
+
+      <div class="btn-header">
+        <a href="#"><button class="btn-login">Login</button></a>
+        <a href="#"><button class="btn-SignUp">Sign up</button></a>
       </div>
     </header>
 
     <main>
-      <div class="content-hero">
+      <div class="content-lessons">
         <h1>Lessons and insights <span>from 8 years</span></h1>
         <p>
           Where to grow your business as a photographer: site or social media?
         </p>
-        <button class="btn-primary btn-register">
-          <a href=""></a>Register
-        </button>
+        <button class="btn-primary">Register</button>
       </div>
+
       <div>
         <img
-          src="./src/image/home/hero-ilustration.svg"
-          alt="Desenho ilustrativo de uma pessoa usando um computador"
+          src="./src/assets/images/Illustration.svg"
+          alt="Desenho ilustrativo de uma pessoa no computador com códigos HTML, CSS e C++"
+          title="Desenho ilustrativo de uma pessoa no computador com códigos HTML, CSS e C++"
         />
       </div>
     </main>
-    <section class="our-clients">
-      <div class="content-our-clients">
-        <h2>Our Clients</h2>
-        <p>We have been working with some Fortune 500+ clients</p>
-      </div>
-      <div class="container-logo-clients">
+
+    <section class="our-client">
+      <h2>Our Clients</h2>
+      <p>We have been working with some Fortune 500+ clients</p>
+
+      <div class="logo-clients">
         <img
-          src="./src/image/home/client-0.svg"
-          alt="logo da empresa 1"
+          src="./src/assets/images/Logo-client.svg"
+          alt="Logo da empresa 1"
+          title="Logo da empresa 1"
           loading="lazy"
-        /><img
-          src="./src/image/home/client-1.svg"
-          alt="logo da empresa 2"
+        />
+        <img
+          src="./src/assets/images/Logo-1.svg"
+          alt="Logo da empresa 1"
+          title="Logo da empresa 1"
           loading="lazy"
-        /><img
-          src="./src/image/home/client-2.svg"
-          alt="logo da empresa 3"
+        />
+        <img
+          src="./src/assets/images/Logo-2.svg"
+          alt="Logo da empresa 1"
+          title="Logo da empresa 1"
           loading="lazy"
-        /><img
-          src="./src/image/home/client-3.svg"
-          alt="logo da empresa 4"
+        />
+        <img
+          src="./src/assets/images/Logo-3.svg"
+          alt="Logo da empresa 2"
+          title="Logo da empresa 2"
           loading="lazy"
-        /><img
-          src="./src/image/home/client-4.svg"
-          alt="logo da empresa 5"
+        />
+        <img
+          src="./src/assets/images/Logo-4.svg"
+          alt="Logo da empresa 3"
+          title="Logo da empresa 3"
           loading="lazy"
-        /><img
-          src="./src/image/home/client-5.svg"
-          alt="logo da empresa 6"
+        />
+        <img
+          src="./src/assets/images/Logo-5.svg"
+          alt="Logo da empresa 4"
+          title="Logo da empresa 4"
           loading="lazy"
-        /><img
-          src="./src/image/home/client-6.svg"
-          alt="logo da empresa 7"
+        />
+        <img
+          src="./src/assets/images/Logo-2.svg"
+          alt="Logo da empresa 6"
+          title="Logo da empresa 6"
           loading="lazy"
         />
       </div>
     </section>
 
     <section class="manage-system">
-      <div class="content-manage-system">
-        <h2>Manage your entire community in a single system</h2>
-        <p>Who is Nextcent suitable for?</p>
-      </div>
+      <h2>Manage your entire community in a single system</h2>
+      <p id="manage-system-subtitle">Who is Nextcent suitable for?</p>
 
-      <div class="container-cards">
-        <article class="content-cards-article">
-          <div>
-            <img
-              src="./src/image/home/card-one.svg"
-              alt="Icone que uma comunidade com pessoas"
-            />
-            <h3>Membership Organisations</h3>
-          </div>
+      <div class="cards-container">
+        <article>
+          <img
+            src="./src/assets/images/Icon01-manage.svg"
+            alt="Ícone grupo de pessoas"
+            title="Ícone grupo de pessoas"
+            loading="lazy"
+          />
+          <h3>Membership Organisations</h3>
           <p>
             Our membership management software provides full automation of
             membership renewals and payments
           </p>
         </article>
-        <article class="content-cards-article">
-          <div>
-            <img
-              src="./src/image/home/card-two.svg"
-              alt="Icone que uma comunidade com pessoas"
-            />
-            <h3>National Associations</h3>
-          </div>
+
+        <article>
+          <img
+            src="./src/assets/images/Icon02-manage.svg"
+            alt="Ícone de empresas"
+            title="Ícone de empresas"
+            loading="lazy"
+          />
+          <h3>National Associations</h3>
           <p>
             Our membership management software provides full automation of
             membership renewals and payments
           </p>
         </article>
-        <article class="content-cards-article">
-          <div>
-            <img
-              src="./src/image/home/card-three.svg"
-              alt="Icone que uma comunidade com pessoas"
-            />
-            <h3>Clubs And Groups</h3>
-          </div>
+
+        <article>
+          <img
+            src="./src/assets/images/Icon03-manage.svg"
+            alt="Ícone mão de pessoas em grupo"
+            title="Ícone mão de pessoa em grupo"
+            loading="lazy"
+          />
+          <h3>Clubs And Groups</h3>
           <p>
             Our membership management software provides full automation of
             membership renewals and payments
