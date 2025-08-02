@@ -380,6 +380,12 @@ h1 {
   margin-right: 125px;
 }
 
+.footer-information-social-medias {
+  display: flex;
+  width: 32px;
+  gap: 16px;
+}
+
 .footer-links {
   display: flex;
   gap: 90px;
