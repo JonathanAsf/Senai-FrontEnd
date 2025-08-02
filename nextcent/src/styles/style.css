@@ -374,12 +374,15 @@ h1 {
 }
 
 .footer-information {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   margin-right: 125px;
 }
 
 .footer-links {
   display: flex;
-  gap: 30px;
+  gap: 90px;
 }
 
 .footer-company {
@@ -396,6 +399,11 @@ h1 {
   gap: 12px;
 }
 
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 .email-container {
   display: flex;
   align-items: center;
@@ -403,7 +411,6 @@ h1 {
   color: var(--color-neutral-white);
   border-radius: 8px;
   padding: 10px 15px;
-  gap: 8px;
 }
 
 .email-container input {
