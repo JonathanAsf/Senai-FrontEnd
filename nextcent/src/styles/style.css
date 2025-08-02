@@ -357,3 +357,55 @@ h1 {
   text-decoration: none;
   gap: 8px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 165px;
+  background-color: var(--color-neutral-black);
+}
+
+.footer h2,
+.footer p,
+.footer a {
+  color: var(--color-neutral-white);
+  text-decoration: none;
+}
+
+.footer-information {
+  margin-right: 125px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.footer-support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-neutral-d_grey);
+  color: var(--color-neutral-white);
+  border-radius: 8px;
+  padding: 10px 15px;
+  gap: 8px;
+}
+
+.email-container input {
+  background: transparent;
+}
