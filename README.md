@@ -22,7 +22,6 @@ O objetivo é registrar minha evolução ao longo do curso, consolidando os conc
 ## 🚀 Objetivos de Aprendizado
 
 - Dominar HTML e CSS para criação de páginas responsivas e acessíveis.
-- Aplicar JavaScript para interatividade no Front-End.
 - Trabalhar com versionamento de código usando Git e GitHub.
 - Praticar a organização e documentação de projetos.
 - Preparar-me para atuar como desenvolvedor Front-End.
@@ -33,7 +32,6 @@ O objetivo é registrar minha evolução ao longo do curso, consolidando os conc
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
 - Git e GitHub
 - VS Code
 
