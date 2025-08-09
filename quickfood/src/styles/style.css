@@ -154,3 +154,53 @@
     color: #000001;
 }
 
+.special-products{
+    margin-top: 160px;
+}
+
+.special-products h2{
+    font-size: 48px;
+    text-align: center;
+}
+
+.special-products-content{
+    display: flex;
+    margin: 60px 100px;
+    gap: 44px;
+}
+
+.special-products-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    line-height:30px;
+
+}
+
+.special-products-cards img{
+    width: 250px;
+    height: 242px;
+    margin: auto;
+}
+
+.special-products-cards h3{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.button-buy{
+    padding: 16px 140px;
+    background-color: #00A000;
+    border-radius: 8px;
+}
+
+.button-buy:hover{
+    cursor: pointer;
+}
+
+.button-buy a{
+    color: #fff;
+    text-transform: capitalize;
+}
