@@ -19,10 +19,18 @@
     gap: 16px;
 }
 
+.nav-buy img{
+    cursor: pointer;
+}   
+
 .nav-login{
     padding: 16px 21px;
     border: 1px solid #00A000;
     border-radius: 11px;
+}
+
+.nav-login:hover{
+    cursor: pointer;
 }
 
 .nav-login a{
