@@ -219,6 +219,7 @@
     font-weight: 500;
     font-size: 18px;
     width: 279px;
+    color: #999999;
 }
 
 .button-buy{
@@ -265,6 +266,8 @@
 
 .profile-container-title p{
     font-size: 18px;
+    color: #999999;
+
 }
 
 .profile-content{
@@ -281,11 +284,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
     width: 400px;
     padding: 40px 33px 88px 33px;
-    background-color: #fff;
     border-radius: 16px;
+    gap: 24px;
+    background-color: #fff;
 }
 
 .profile-card h2{
@@ -295,5 +298,42 @@
 
 .profile-card p{
     width: 333px;
-text-align: justify;
+    text-align: justify;
+}
+
+.about-us-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+    padding: 100px;
+}
+
+.about-us-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 18px;
+    width:503px;
+    line-height:30px;
+    color:#000001;
+}
+
+.about-us-content-text h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about-us-content-text p{
+    font-size: 18px;
+    color: #999999;
+}
+
+.button-learn-more{
+    padding: 16px 21px;
+    background-color: #00A000;
+    color: #fff;
+    width: 157px;
+    border-radius: 11px;
 }
