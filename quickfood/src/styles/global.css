@@ -29,11 +29,16 @@
 body {
     font-family: 'Gilroy', sans-serif; 
     font-weight: 500;
+    max-width: 1920px;
 }
 
 a{
     text-decoration: none;
     color: #000001;
+}
+
+p{
+    font-size: clamp(1rem, 1.5vw, 1.125rem); 
 }
 
 li{
