@@ -191,7 +191,7 @@
     justify-content: center;
     align-items: center;
     margin: 60px 100px;
-    gap: 44px;
+    gap: 20px;
 }
 
 .special-products-cards{
@@ -239,4 +239,61 @@
 .button-buy a{
     color: #fff;
     text-transform: capitalize;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    padding: 100px;
+}
+
+.profile-container-title{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.profile-container-title h2{
+    font-size: 48px;
+
+}
+
+.profile-container-title p{
+    font-size: 18px;
+}
+
+.profile-content{
+    display: flex;
+    gap: 20px;
+}
+
+.profile-content h2{
+    margin-bottom: 8px;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 400px;
+    padding: 40px 33px 88px 33px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.profile-card h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.profile-card p{
+    width: 333px;
+text-align: justify;
 }
