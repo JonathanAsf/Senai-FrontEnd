@@ -38,3 +38,42 @@
     --border-width-thin: 0.06rem;
     --border-width: 0.063rem;
 }
+
+body {
+  font-size: var(--font-size-body-md);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  font-family: 'Gilroy', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: var(--font-size-heading-xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+}
+
+h2 {
+  font-size: var(--font-size-heading-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+}
+
+h3 {
+  font-size: var(--font-size-heading-md);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+}
+
+a{
+    text-decoration: none;
+    color: #000001;
+}
+
+p{
+    font-size: clamp(1rem, 1.5vw, 1.125rem); 
+}
+
+li{
+    list-style-type: none;
+}
