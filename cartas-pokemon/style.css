@@ -2,63 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /*background: linear-gradient(to right, blue, red); 
-  background: linear-gradient(to left, blue, red); 
-  background: linear-gradient(to bottom, blue, red); 
-  background: linear-gradient(to top, blue, red); 
-
-  background: linear-gradiente(0deg, blue, red)
-  background: linear-gradiente(90deg, blue, red)
-  background: linear-gradiente(180deg, blue, red)
-  background: linear-gradient(270deg, blue, red);
-
-  Radial
-  background: radial-gradient(circle, orange, red);
-
-  Elipse
-  background: radial-gradient(elipse, orange, red);
-  font-size: 18px;
-    */
-}
-
-/*
-.boxes {
-  display: flex;
-  gap: 20px;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(90deg, red, purple);
-  transition: 1s;
-}
-
-.box:hover {
-  transform: scale(1.2);
-}
-
-.box1 {
-  width: 100px;
-  height: 100px;
-  background-color: purple;
-  transition: 1s;
-}
-
-.box1:hover {
-  transform: rotate(90deg) translate(100px, 10px);
-}
-
-.box2 {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  transition: 1s;
-}
-
-.box2:hover {
-  transform: translate(-10px, 20px);} /*x,y*/
+}:last-child
 
 .galeria {
   display: flex;
