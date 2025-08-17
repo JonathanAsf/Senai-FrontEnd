@@ -1,0 +1,11 @@
+.container-itens {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+.item {
+  padding: 20px 10px;
+  background-color: #4169e1;
+}

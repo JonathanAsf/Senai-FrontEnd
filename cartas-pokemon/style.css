@@ -2,9 +2,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}:last-child
-
-.galeria {
+}
+:last-child .galeria {
   display: flex;
   gap: 40px;
   margin: 40px;

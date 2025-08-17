@@ -1,0 +1,20 @@
+.exercicios-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.exercicio {
+  padding: 20px 20px;
+  background-color: #6b88;
+  text-decoration: none;
+  color: #000;
+  transition: 0.8s;
+}
+
+.exercicio:hover {
+  background-color: rgba(23, 104, 55, 0.533);
+  transform: scale(1.2);
+}
