@@ -11,14 +11,14 @@ O objetivo é praticar os conceitos de **CSS**.
     ┣ 📁 src
     ┃  ┣  📁 style
     ┃  ┃   ┣  📄 style.css
-    ┃  ┃   ┗  📄 global.css 
+    ┃  ┃   ┗  📄 global.css
     ┃  ┣  📁 assets
     ┃  ┃   ┣ 📁 fonts
-    ┃  ┃   ┃  ┣ Gilroy.ttf     
-    ┃  ┃   ┃  ┣ Gilroy-Medium.ttf     
-    ┃  ┃   ┃  ┣ Gilroy-SemiBold.ttf     
-    ┃  ┃   ┃  ┣ Gilroy-Bold.ttf     
-    ┃  ┃   ┃  ┗ Gilroy-ExtraBold.ttf     
+    ┃  ┃   ┃  ┣ Gilroy.ttf
+    ┃  ┃   ┃  ┣ Gilroy-Medium.ttf
+    ┃  ┃   ┃  ┣ Gilroy-SemiBold.ttf
+    ┃  ┃   ┃  ┣ Gilroy-Bold.ttf
+    ┃  ┃   ┃  ┗ Gilroy-ExtraBold.ttf
     ┃  ┃   ┃ 📁 img
     ┃  ┃   ┃  ┗ (All images in project)
 
@@ -35,7 +35,7 @@ O objetivo é praticar os conceitos de **CSS**.
 
 ## 📸 Demonstração:
 
-![alt text](./src/assets/images/resume-project.png)
+![alt text](./src/assets/img/resume-project.png)
 
 ## 📚 Aprendizados
 
