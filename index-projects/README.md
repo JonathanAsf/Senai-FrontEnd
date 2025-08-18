@@ -16,9 +16,10 @@ O arquivo [`index.html`](./index.html) funciona como uma **página inicial**, li
 
 ## 🎨 Preview do Índice
 
-![Preview da página índice](./assets/img-resume/projects-image.png)
+![Preview da página índice](./assets/img/projects-image.png)
 
-## 📍[Clique aqui para acessar o índice](https://index-landingpages.vercel.app)
+## 📍[Clique aqui para acessar o índice](https://grid-exercises-smoky.vercel.app)
+
 
 ## 📌 Tecnologias utilizadas
 
