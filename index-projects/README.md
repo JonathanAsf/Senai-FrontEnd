@@ -18,7 +18,7 @@ O arquivo [`index.html`](./index.html) funciona como uma **página inicial**, li
 
 ![Preview da página índice](./assets/img/projects-image.png)
 
-## 📍[Clique aqui para acessar o índice](https://grid-exercises-smoky.vercel.app)
+## 📍[Clique aqui para acessar o índice](https://senai-front-end-2gt7.vercel.app)
 
 
 ## 📌 Tecnologias utilizadas
