@@ -1,0 +1,26 @@
+/* === SINTAXE === */
+/* @keyframes nome_da_animacao{
+    from{} Geralmente é referido com %
+    to{}
+}
+
+.elementocss{
+    animation: nome-da-animacao duracao repeticao;
+}
+*/
+
+@keyframes piscar{
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+button{
+    animation: piscar 1s infinite;
+}
