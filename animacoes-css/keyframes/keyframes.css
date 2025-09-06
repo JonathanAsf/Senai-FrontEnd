@@ -9,6 +9,14 @@
 }
 */
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top:50px ;
+}
+
 @keyframes piscar{
     0%{
         opacity:1;
@@ -21,6 +29,82 @@
     }
 }
 
-button{
+.button{
     animation: piscar 1s infinite;
 }
+
+@keyframes mudar-cor{
+    0%{
+    background-color: violet;
+    }
+    50%{
+    background-color: black;
+    }
+    100%{
+    background-color: blueviolet;
+    }
+}
+.button1{
+    background-color: aliceblue;
+    animation: mudar-cor 3s infinite;
+    transition: 2s linear;
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.button2{
+    animation: girar 1s infinite;
+}
+
+.button2:hover{
+    animation-play-state: paused;
+}
+
+@keyframes pular{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.button3{
+    background-color: cadetblue;
+    padding: 20px;
+    animation: pular 0.5s infinite;
+}
+
+@keyframes clique {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.button4{
+   padding: 20px 40px; 
+   background-color: antiquewhite;
+   text-decoration: none;
+   color: black;
+}
+
+.button4:active{
+    animation: clique 1s;
+}
+
