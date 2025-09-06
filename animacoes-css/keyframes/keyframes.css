@@ -8,7 +8,9 @@
     animation: nome-da-animacao duracao repeticao;
 }
 */
-
+*{
+    margin: 0;
+}
 .container{
     display: flex;
     align-items: center;
@@ -108,3 +110,35 @@
     animation: clique 1s;
 }
 
+.personagens{
+    display: flex;
+    flex-direction: column;
+}
+.personagens img{
+
+    width: 200px;
+}
+
+@keyframes correr-e-voltar {
+    0%{
+        left: 0;
+    }
+    49%{
+        transform: rotateY(0);
+    }
+    50%{
+        left: 1000px;
+        transform: rotateY(180deg);
+    }
+    100%{
+        left: 0;
+        transform: rotateY(180deg);
+
+    }
+}
+
+
+.personagem-correndo{
+    position: relative;
+    animation: correr-e-voltar 6s infinite;
+}
