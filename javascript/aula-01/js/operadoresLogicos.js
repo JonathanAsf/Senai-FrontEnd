@@ -1,6 +1,6 @@
 // && = And
 // || = Or
-//    = Not
+//  ! = Not
 
 // dia_util = false
 // dia_atual = true
