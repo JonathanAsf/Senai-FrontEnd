@@ -1,20 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(45deg, #476892, #59355D);
+}
+
 .exercicios-container {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 20px;
+  height: 90vh;
+  margin: 0 100px;
 }
 
 .exercicio {
-  padding: 20px 20px;
+  padding: 50px;
   background-color: #6b88;
   text-decoration: none;
   color: #000;
   transition: 0.8s;
+  font-size: 48px;
 }
 
 .exercicio:hover {
-  background-color: rgba(23, 104, 55, 0.533);
-  transform: scale(1.2);
+  background-color: rgba(13, 71, 37, 0.533);
+  transform: scale(1.05);
+  color: rgba(136, 233, 175, 0.533);
 }
