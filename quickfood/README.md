@@ -5,6 +5,21 @@ O objetivo é praticar os conceitos de **CSS**.
 
 ---
 
+## 📸 Demonstração:
+
+![alt text](./src/assets/img/resume-project.png)
+
+## 🔧 Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
+
+---
+
+## 📍 [Clique aqui para visualizar esse projeto](https://quick-food-blue.vercel.app)
+
+---
+
 ## 📁 Quick Food
 
     ┣ 📄 index.html
@@ -23,19 +38,6 @@ O objetivo é praticar os conceitos de **CSS**.
     ┃  ┃   ┃  ┗ (All images in project)
 
 ---
-
-## 🔧 Tecnologias Utilizadas
-
-- **HTML5**
-- **CSS3**
-
----
-
-## 📍 [Clique aqui para visualizar esse projeto](https://quick-food-blue.vercel.app)
-
-## 📸 Demonstração:
-
-![alt text](./src/assets/img/resume-project.png)
 
 ## 📚 Aprendizados
 
