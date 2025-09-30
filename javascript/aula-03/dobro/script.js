@@ -1,4 +1,9 @@
-// Crie uma função chamada `somar` que receba dois números como parâmetro e exiba a soma no console.
-numero1 = Number(prompt("Digite o primeiro numero"))
+//Crie uma função chamada dobro(numero) que receba um número como parâmetro e exiba o dobro desse número no console.
+numero = Number(prompt("Digite o numero: "))
 
-alert(` dos dois números é:${numero1*2}`)
+function dobro (numero){
+    return (numero*2)
+}
+
+alert(`O dobro do número ${numero} é: ${dobro(numero)}`)
+
