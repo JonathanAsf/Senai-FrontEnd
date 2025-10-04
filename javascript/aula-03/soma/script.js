@@ -2,4 +2,4 @@
 numero1 = Number(prompt("Digite o primeiro numero"))
 numero2 = Number(prompt("Digite o segundo numero"))
 
-alert(`A soma dos dois números é:${numero1+numero2}`)
+alert(`A soma dos dois números é: ${numero1+numero2}`)
