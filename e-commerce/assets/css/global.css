@@ -1,0 +1,8 @@
+html,h1,h2,h3,h4,p,a{
+    font-family: "Inter", sans-serif;
+    color: #333231;
+}
+
+a:hover{
+    cursor: pointer;
+}
