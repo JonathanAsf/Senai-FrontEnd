@@ -88,29 +88,26 @@
 
 .main-content-colors-spheres{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
-.option-color:checked {
-    box-shadow: 0 0 0 3px, 0 0 0 6px
-}
-
-
-.main-content-colors-first{
+.option-color{
+    appearance: none;
     width: 32px;
     height: 32px;
     border-radius: 100%;
-    background-color: #E0E1E1;
-    border: 3px solid #FA8232;
 }
 
-.main-content-colors-second {
-    width: 32px;
-    height: 32px;
-    border-radius: 100%;
+.option-color gray {
     background-color: #B1B5B8;
 }
 
+.option-color silver{
+    background-color: #E0E1E1;
+}
+.option-color:checked {
+    box-shadow: 0 0 0 6px #FA8232;
+}
 
 .main-content-add-item{
     padding: 12px 30px;
