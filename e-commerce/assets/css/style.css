@@ -1,8 +1,11 @@
+@import url("./reset.css");
+@import url("./global.css");
+
 .header-container{
     display: flex;
     align-items: center;
     justify-content:space-between ;
-    padding:20px 60px;
+    padding: 20px 60px;
 }
 
 .header-links ul{
@@ -42,14 +45,60 @@
     gap:12px;
 }
 
-.main-content-proce-discount{
-    padding: 5px 10px;  
-    background-color: #EFD33D;
+.main-content-price-new{
+    color: var(--color-secondary);
+    font-size: var(--h4-size);
 }
+
+.main-content-price-old{
+    color: var(--color-gray);
+    font-size: var(--body-size);
+    text-decoration: line-through;
+}
+
+.main-content-price-discount{
+    font-size: var(--body-size);
+    font-weight: var(--title-weight);
+    background-color: var(--color-warning);
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.main-content-colors{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main-content-colors-title{
+    font-size: var(--body-size);
+    color: var(--color-gray);
+}
+
+.main-content-colors-spheres{
+    display: flex;
+    gap: 10px;
+}
+
+.main-content-colors-first{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: #E0E1E1;
+    border: 3px solid #FA8232;
+}
+
+.main-content-colors-second {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: #B1B5B8;
+}
+
 
 .main-content-add-item{
     padding: 12px 30px;
-    background-color: #B0CB1F;
+    background-color: var(--color-primary);
     border-radius: var(--border-radius-button);
     margin: 0;
 }

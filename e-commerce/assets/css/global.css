@@ -9,11 +9,11 @@ a, button:hover{
 
 :root{
     --color-primary:#B0CB1F;   
+    --color-secondary: #2DA5F3;
     --color-white:#fff;
     --color-black:#333231;
     --color-gray:#5F6C72;
     --color-warning:#EFD33D;
-    --color-warning:#2DA5F3;
 
     --h1-size: 60px;
     --h2-size: 48px;
@@ -22,7 +22,7 @@ a, button:hover{
     --body-size: 16px
 
     --title-weight: 700;
-    --body-weight:100;
     --button-weight:400;
+    --body-weight: 100;
     --border-radius-button: 15px 3px 15px 3px;
 }
