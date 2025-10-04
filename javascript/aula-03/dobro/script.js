@@ -1,10 +1,8 @@
-// Crie uma função chamada dobro que receba um número como parâmetro e exiba o dobro desse número no console.
+//Crie uma função chamada dobro(numero) que receba um número como parâmetro e exiba o dobro desse número no console.
+numero = Number(prompt("Digite o numero: "))
 
-numero = Number(prompt("Digite o primeiro numero"))
-
-// Arrow Function
 function dobro (numero){
-    numero * 2
+    return (numero*2)
 }
 
-console.log(nome(dobro))
+alert(`O dobro do número ${numero} é: ${dobro(numero)}`)
