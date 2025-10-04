@@ -96,15 +96,9 @@
     width: 32px;
     height: 32px;
     border-radius: 100%;
+    background-color: var(--color-gray);
 }
 
-.option-color gray {
-    background-color: #B1B5B8;
-}
-
-.option-color silver{
-    background-color: #E0E1E1;
-}
 .option-color:checked {
     box-shadow: 0 0 0 6px #FA8232;
 }
