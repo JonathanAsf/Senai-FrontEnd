@@ -113,3 +113,50 @@
     border-radius: var(--border-radius-button);
     margin: 0;
 }
+
+.form-container{
+    background-color: rgba(177, 203, 31, 0.1);
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 50px;
+}
+
+.form-content-forms{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.field label {
+    font-weight: 600;
+}
+
+.field input {
+    height: 42px;
+    padding: 10px 12px;
+    border: 2px solid #d7dbc6;
+    border-radius: 8px;
+    outline: none;
+}
+
+.field input:focus {
+    border-color: var(--color-primary);
+}
+
+.btn{
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-button);
+    padding: 12px 30px;
+}
