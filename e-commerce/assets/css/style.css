@@ -91,12 +91,19 @@
     gap: 20px;
 }
 
+.color-white{
+    background-color: #E0E1E1;
+}
+
+.color-gray{
+    background-color: var(--color-gray) ;
+}
+
 .option-color{
     appearance: none;
     width: 32px;
     height: 32px;
     border-radius: 100%;
-    background-color: var(--color-gray);
 }
 
 .option-color:checked {
