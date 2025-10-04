@@ -1,4 +1,4 @@
-.header{
+.header-container{
     display: flex;
     justify-content:space-between ;
     padding:20px 60px;
@@ -9,4 +9,34 @@
     gap: 30px;
 }
 
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px 185px 30px 185px;
+    gap: 60px;
+}
 
+.main-content-rating{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+
+.main-content-price{
+    display: flex;
+    align-items: center;   
+    gap:12px;
+}
+
+.main-content-proce-discount{
+    padding: 5px 10px;  
+    background-color: #EFD33D;
+}
+
+.main-content-add-item{
+    padding: 12px 30px;
+    background-color: #B0CB1F;
+    border-radius: 15px 3px 15px 3px;
+    margin: 0;
+}
