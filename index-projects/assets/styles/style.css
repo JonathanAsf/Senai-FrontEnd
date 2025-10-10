@@ -25,12 +25,47 @@ html{
     gap: 20px;
 }
 
-.projects-card img{
+.projects-card {
+    position: relative;
     border-radius: 16px;
-    transition:0.3s;
+    overflow: hidden;
+    width: 440px;
+    height: 440px;
+    transition:0.5s;
+}
+
+.projects-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: transform .45s ease, filter .45s ease;
 }
 
 .projects-card img:hover{
     transform: scale(1.05);
-    transition-duration: 1s;
+    filter: brightness(.78) saturate(.95);
+}
+
+.projects-card .overlay {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, .55);
+    opacity: 0;
+    transition: opacity .3s ease;
+    border-radius: 16px;
+}
+
+.projects-card:hover .overlay {
+    opacity: 1;
+}
+
+.projects-card a:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, .25);
+    border-radius: 16px;
 }
