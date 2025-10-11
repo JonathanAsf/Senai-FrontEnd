@@ -20,6 +20,11 @@ function renderPokemon(pokemon){
         input_search.value = ""
         search_pokemon = data.id
     })
+    .catch(() => {
+        pokemon_name.innerText = "Não encontrado :("
+        pokemon_number.innerText = ""
+        pokemon_image.src = ""
+    })
 }
 
 btn_search.addEventListener("click",(e) => {
