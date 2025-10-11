@@ -38,3 +38,5 @@ btn_prev.addEventListener("click", () => {
     renderPokemon(search_pokemon)    
     }
 })
+
+renderPokemon(1)
