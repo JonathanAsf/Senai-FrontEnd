@@ -2,20 +2,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-image: url('./img/background.png');
 }
-:last-child .galeria {
-  display: flex;
-  gap: 40px;
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10rem;
   margin: 40px;
 }
 
 .img {
-  width: 250px;
-  height: 400px;
+  max-width: 420px;
+  max-height: 400px;
   transition: 0.3s;
 }
 
 .img:hover {
   transform: skew(-30deg, 30deg);
   box-shadow: 180px 10px 90px #0008;
+}
+
+body {
+
+  font-family: 'Roboto', sans-serif;
 }
