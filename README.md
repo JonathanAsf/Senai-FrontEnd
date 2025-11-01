@@ -14,6 +14,7 @@ O objetivo é registrar minha evolução ao longo do curso, consolidando os conc
 - **Principais tecnologias:**
   - HTML5
   - CSS3 (Flexbox, Grid, Responsividade)
+  - Javascript (Manipualção de DOM, Promise, loop, condicionais)
   - Git e GitHub
   - Boas práticas de desenvolvimento
 
