@@ -45,7 +45,7 @@
     margin: 0 6.25rem;
 }
 
-@media (max-width:1024px){
+@media (max-width:1300px){
     .main-content{
         grid-template-columns: 1fr;
     }
@@ -186,7 +186,7 @@
     gap: 0.5rem;
 }
 
-@media (max-width:1024px){
+@media (max-width:1300px){
     .product-analysis-information{
         width: 10rem;
     }
@@ -207,7 +207,7 @@
     margin-top: 10rem;
 }
 
-@media (max-width:1024px){
+@media (max-width:1300px){
     .special-products{
         margin-top: 2rem;
     }
@@ -264,7 +264,7 @@
     border-radius: 0.5rem;
 }
 
-@media(max-width:1024px){
+@media(max-width:1300px){
     .button-buy{
         padding: 1rem;
     }
@@ -313,7 +313,7 @@
     gap: 1.25rem;
 }
 
-@media(max-width:1024px){
+@media(max-width:1300px){
     .profile-container{
     padding: 0rem;
     }
@@ -342,7 +342,7 @@
     background-color: #fff;
 }
 
-@media(max-width:1024px){
+@media(max-width:1300px){
     .profile-card{
         padding: 1.25rem 1rem 2.5rem 1rem;
     }
@@ -367,7 +367,7 @@
     padding: 6.25rem;
 }
 
-@media(max-width:1024px){
+@media(max-width:1300px){
     .about-us-content{
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -422,7 +422,7 @@
     font-weight: 700;
 }
 
-@media (max-width:1024px){
+@media (max-width:1300px){
     .newsletter{
         font-size: 1.5rem;
     }
