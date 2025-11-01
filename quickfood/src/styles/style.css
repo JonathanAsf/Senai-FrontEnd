@@ -45,17 +45,18 @@
     margin: 0 6.25rem;
 }
 
+@media (max-width:1024px){
+    .main-content{
+        grid-template-columns: 1fr;
+    }
+}
+
 .main-content-text p{
     font-size: 1.125rem;
     width:100%;
     max-width: 35rem;
     line-height: 1.875rem;
     color:#000001;
-}
-
-.main-content-text{
-    width: 100%;
-    max-width: 35.25rem;
 }
 
 .main-content-text h1{
@@ -98,6 +99,10 @@
 .main-content-products:hover{
     background-color: #047e04;
     color: #FAFAFA;
+}
+
+.main-content-image{
+    text-align: center;
 }
 
 .choose-product{
@@ -181,6 +186,12 @@
     gap: 0.5rem;
 }
 
+@media (max-width:1024px){
+    .product-analysis-information{
+        width: 10rem;
+    }
+}
+
 .product-analysis-information h2{
     font-size: 3rem;
     font-weight: 600;
@@ -194,6 +205,12 @@
 
 .special-products{
     margin-top: 10rem;
+}
+
+@media (max-width:1024px){
+    .special-products{
+        margin-top: 2rem;
+    }
 }
 
 .special-products h2{
@@ -245,7 +262,12 @@
     padding: 1rem 8.75rem;
     background-color: #00A000;
     border-radius: 0.5rem;
+}
 
+@media(max-width:1024px){
+    .button-buy{
+        padding: 1rem;
+    }
 }
 
 .button-buy:hover{
@@ -291,6 +313,19 @@
     gap: 1.25rem;
 }
 
+@media(max-width:1024px){
+    .profile-container{
+    padding: 0rem;
+    }
+    .profile-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0;
+    }
+}
+
 .profile-content h2{
     margin-bottom: 0.5rem;
 }
@@ -305,6 +340,12 @@
     border-radius: 1rem;
     gap: 1.5rem;
     background-color: #fff;
+}
+
+@media(max-width:1024px){
+    .profile-card{
+        padding: 1.25rem 1rem 2.5rem 1rem;
+    }
 }
 
 .profile-card h2{
@@ -324,6 +365,14 @@
     justify-content: center;
     margin: 0 6.25rem;
     padding: 6.25rem;
+}
+
+@media(max-width:1024px){
+    .about-us-content{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
 }
 
 .about-us-content-text{
@@ -363,7 +412,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6.25rem 22.813rem ;
+    padding: 6.25rem;
     background-color: #FAFAFA;
     gap: 0.5rem;
 }
@@ -371,6 +420,12 @@
 .newsletter h2{
     font-size: 3rem;
     font-weight: 700;
+}
+
+@media (max-width:1024px){
+    .newsletter{
+        font-size: 1.5rem;
+    }
 }
 
 .newsletter p{
