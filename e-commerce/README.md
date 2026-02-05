@@ -5,7 +5,7 @@ Um projeto de página de produto de alta fidelidade para um e-commerce de tecnol
 ---
 
 ## 🔗 Link do Projeto
-🚀 [Acesse a demonstração ao vivo na Vercel](https://e-commerce-six-zeta-31.vercel.app)
+🖥️ [Acesse a demonstração ao vivo na Vercel](https://e-commerce-six-zeta-31.vercel.app)
 
 ## 🚀 Funcionalidades Principais
 
