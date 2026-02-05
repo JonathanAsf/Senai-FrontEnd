@@ -2,6 +2,7 @@
 
 Uma Pokédex interativa e responsiva desenvolvida para praticar consumo de APIs e manipulação de DOM. O projeto utiliza a [PokeAPI](https://pokeapi.co/) para buscar dados em tempo real, exibindo nomes, números e sprites animados.
 
+## 📍 [Clique aqui para visualizar esse projeto](https://pokemon-api-amber-pi.vercel.app)
 ---
 
 ## 🚀 Funcionalidades
@@ -18,6 +19,8 @@ Uma Pokédex interativa e responsiva desenvolvida para praticar consumo de APIs 
 * **JavaScript (ES6+):** * `fetch()` para requisições assíncronas.
     * Manipulação de eventos de formulário e botões.
     * Promessas (`.then`, `.catch`) para controle de fluxo de dados.
+
+
 
 ## 🎨 Layout e Estilo
 
