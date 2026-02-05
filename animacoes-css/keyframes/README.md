@@ -2,8 +2,10 @@
 
 Esta pasta contém exemplos práticos de como utilizar a regra `@keyframes` do CSS para criar animações complexas, contínuas e com múltiplos estágios.
 
-![Banner Keyframes](https://seu-link-da-imagem-aqui.com) ## 📝 O que são Keyframes?
+## 📝 O que são Keyframes?
 Diferente das transições, os `@keyframes` permitem que você controle o que acontece em momentos específicos da animação (0%, 50%, 100%, etc.), sem depender necessariamente de uma interação do usuário para começar.
+
+🖥️ [Acesse a demonstração ao vivo na Vercel](https://keyframes-gamma.vercel.app)
 
 ---
 
